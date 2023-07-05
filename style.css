@@ -1,0 +1,89 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+.container{
+	width:75%;
+	margin:0 auto;
+}
+
+
+
+.item{
+	height:200px;
+	width:20%;
+	background-color:green;
+}
+
+.trans:hover{
+	width:50%;
+	transition:width;
+}
+
+
+.trans-delay:hover{
+	width:50%;
+	transition-delay:3s;
+}
+
+
+.trans-duration:hover{
+	width:50%;
+	transition-duration:5s;
+}
+
+.trans-property:hover{
+	width:50%;
+	height:250px;
+	transition-property:height 5s, width 5s;
+	
+}
+
+
+.timing-function-ease:hover{
+	width:50%;
+	transition:width 5s;
+	transition-timing-function:ease;	
+}
+
+.timing-function-linear:hover{
+	width:50%;
+	transition:width 5s;
+	transition-timing-function:linear;	
+}
+
+.timing-function-easein:hover{
+	width:50%;
+	transition:width 5s;
+	transition-timing-function:ease-in;	
+}
+
+
+.timing-function-easeout:hover{
+	width:50%;
+	transition:width 5s;
+	transition-timing-function:ease-out;	
+}
+
+.timing-function-ease-inout:hover{
+	width:50%;
+	transition:width 5s;
+	transition-timing-function:ease-in-out;	
+}
+
+
+.timing-function-bezier:hover{
+	width:50%;
+	transition:width 5s;
+	transition-timing-function:cubic-bezier(0.2, 0.4, 0.2, 0.8);	
+}
+
+
+
+
+
+
+
+
